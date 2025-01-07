@@ -1,0 +1,39 @@
+@import '@/styles/variables';
+
+.main {
+  max-width: $laptop-xl;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $laptop) {
+    flex-direction: row;
+    gap: 38px;
+  }
+
+  @media (min-width: $laptop-xl) {
+    gap: 40px;
+  }
+
+  section {
+    max-width: 480px;
+    align-self: center;
+  }
+
+  p {
+    margin-bottom: 16px;
+
+    @media (min-width: $tablet) {
+      margin-bottom: 18px;
+    }
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    @media (min-width: $tablet) {
+      gap: 18px;
+    }
+  }
+}

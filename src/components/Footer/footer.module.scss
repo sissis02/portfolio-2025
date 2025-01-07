@@ -1,0 +1,17 @@
+@import '@/styles/variables';
+@import '@/styles/mixins';
+
+.container {
+  padding-top: 0;
+  width: 100%;
+  max-width: $laptop-xl;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  p {
+    @include sideLink;
+    font-size: 12px;
+    font-weight: 400;
+  }
+}

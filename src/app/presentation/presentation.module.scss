@@ -1,0 +1,55 @@
+@import '@/styles/variables';
+
+.main {
+  max-width: $laptop-xl;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $laptop) {
+    flex-direction: row;
+    gap: 38px;
+
+    @media (min-width: $laptop-xl) {
+      gap: 40px;
+    }
+  }
+
+  section {
+
+    @media (min-width: $laptop) {
+      width: 50%;
+      max-width: 600px;
+      align-self: center;
+    }
+  }
+
+  section:nth-child(2) {
+    @media (min-width: $laptop) {      
+      align-self: flex-end;
+      margin-bottom: 0;
+    }
+  }
+
+  p {
+    margin-bottom: 16px;
+
+    @media (min-width: $tablet) {
+      margin-bottom: 18px;
+    }
+  }
+
+  em {
+    font-style: normal;
+    color: $text-light-grey;
+    letter-spacing: 1px;
+    font-family: 'Yeseva One', serif;
+    font-size: 12px;
+
+    @media (min-width: $tablet) {
+      font-size: 14px;
+    }
+    @media (min-width: $laptop) {
+      font-size: 16px;
+    }
+  }
+}

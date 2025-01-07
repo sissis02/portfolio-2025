@@ -1,0 +1,63 @@
+@import '@/styles/variables';
+@import '@/styles/mixins';
+
+.container {
+  width: 100%;
+  max-width: $laptop-xl;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  @media (min-width: $laptop) {
+    position: relative;
+    flex-direction: row-reverse;
+  }
+
+  .links {
+    // align-self: flex-start;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+
+    @media (min-width: $mobile-m) {
+      gap: 26px;
+    }
+    @media (min-width: $mobile-l) {
+      gap: 28px;
+    }
+    @media (min-width: $tablet) {
+      gap: 30px;
+    }
+    @media (min-width: $laptop) {
+      gap: 34px;
+      transform: rotate(-90deg);
+      position: absolute;
+      text-align: center;
+      left: 0px;
+    }
+  }
+
+  .internal {
+    padding-right: 60px;
+  }
+
+  a {
+    @include sideLink();
+  }
+
+  img {
+    width: 76px;
+    height: auto;
+    object-fit: contain;
+
+    @media (min-width: $tablet) {
+      width: 86px;
+    }
+    @media (min-width: $laptop) {
+      width: 90px;
+    }
+    @media (min-width: $laptop-l) {
+      width: 98px;
+    }
+  }
+}

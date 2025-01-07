@@ -1,0 +1,26 @@
+@import '@/styles/variables';
+
+@mixin regularFont {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+
+  @media (min-width: $laptop-l) {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+@mixin sideLink {
+  font-family: 'Yeseva One', serif;
+  color: $text-light-grey;
+  font-weight: 600;
+  font-size: 14px;
+
+  @media (min-width: $mobile-m) {
+    font-size: 16px;
+  }
+  @media (min-width: $laptop-l) {
+    font-size: 18px;
+  }
+}

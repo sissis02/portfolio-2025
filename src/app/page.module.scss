@@ -1,0 +1,45 @@
+@import '@/styles/variables';
+@import '@/styles/mixins';
+
+.main {
+  max-width: $laptop-xl;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $laptop) {
+    flex-direction: row;
+  }
+
+  section {
+    align-self: center;
+
+    @media (min-width: $laptop) {
+      padding-right: 10px;
+    }
+    @media (min-width: $laptop-l) {
+      padding-right: 40px;
+    }
+
+    p {
+      max-width: 500px;
+    }
+
+    a {
+      text-decoration: underline;
+    }
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    @media (min-width: $tablet) {
+      gap: 18px;
+    }
+  }
+
+  button {
+    all: unset;
+  }
+}

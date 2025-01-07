@@ -1,0 +1,50 @@
+@import '@/styles/variables';
+
+.main {
+  max-width: $laptop-xl;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $tablet) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  @media (min-width: $laptop) {
+    gap: 38px;
+  }
+
+  @media (min-width: $laptop-xl) {
+    gap: 40px;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  section, aside {
+
+    @media (min-width: $tablet) {
+      height: 65dvh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  aside {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+    img {
+      width: 75%;
+      border-radius: 50%;
+      height: auto;
+      max-width: 298px;
+      object-fit: contain;
+    }
+  }
+
+}
