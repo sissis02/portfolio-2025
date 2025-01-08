@@ -27,13 +27,12 @@ export default function Header() {
           >
             IN
           </Link>
-          <Link
-            href={'https://www.linkedin.com/in/sissis-ul-670641153/'}
-            passHref={true}
+          <a
+            href='/cv-sissis-ul.pdf'
             target='_blank'
           >
             CV
-          </Link>
+          </a>
         </div>
         : <div className={styles.links}>
             {

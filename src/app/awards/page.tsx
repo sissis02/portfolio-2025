@@ -14,7 +14,7 @@ export default function Awards() {
         <h4>RECOMPENSES.</h4>
         <p>
           Depuis mes débuts en tant que développeuse web, des prix m'ont
-          également été déscernés et dont je suis fière ...   
+          également été déscernés.
         </p>
       </aside>
       <nav>

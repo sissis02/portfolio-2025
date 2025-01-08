@@ -13,7 +13,7 @@ export default function Presentation() {
       <section>
         <h4>BIOGRAPHIE.</h4>
         <p>
-          Auparavant, gestionnaire de sinistres automobiles et corporels au sein
+          Auparavant gestionnaire de sinistres automobiles et corporels au sein
           de compagnies d'assurances, c'est à partir de septembre 2023
           qu'à commencé ma nouvelle aventure dans la programmation informatique.
         </p>
