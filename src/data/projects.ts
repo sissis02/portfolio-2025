@@ -2,7 +2,7 @@ export const projects = [
   {
     name: 'Weather App',
     presentation: "Application mobile donnant les prévisions météorologiques d'une adresse spécifique",
-    desc: ['Application mobile où les utilisateurs peuvent consulter les prévisions météorologiques de la ville de Nantes.', "Utilisation de l'API OpenWeather.", 'Technos utilisées : TypeScript - React Native.'],
+    desc: ['Application mobile où les utilisateurs peuvent consulter les prévisions météorologiques de la ville de Nantes.', "Utilisation de l'API OpenWeatherMap.", 'Technos utilisées : TypeScript - React Native.'],
     pictures: ['/weather_app/wa-1.png', '/weather_app/wa-3.jpeg', '/weather_app/wa-4.png'],
   },
   {
