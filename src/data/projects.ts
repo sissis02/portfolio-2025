@@ -1,5 +1,12 @@
 export const projects = [
   {
+    name: 'Budget Planner',
+    presentation: 'Application conçue pour gérer son budget',
+    desc: ["Application où l'utilisateur' peut créer, suivre et visualiser son budget de manière mensuelle et annuelle", 'Technos utilisées : TypeScript - React - react-query - sass - Node - express.js - MongoDB.'],
+    pictures: ['/budget_planner/budget-1.png', '/budget_planner/budget-2.png', '/budget_planner/budget-3.png'],
+    link: ['Lien du repo GitHub : ', 'GitHub', 'https://github.com/sissis02/budget-planner-front']
+  },
+  {
     name: 'Weather App',
     presentation: "Application mobile donnant les prévisions météorologiques d'une adresse spécifique",
     desc: ['Application mobile où les utilisateurs peuvent consulter les prévisions météorologiques de la ville de Nantes.', "Utilisation de l'API OpenWeatherMap.", 'Technos utilisées : TypeScript - React Native.'],

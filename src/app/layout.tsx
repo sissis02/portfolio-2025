@@ -58,15 +58,17 @@ export default function RootLayout({
       setBgColor('sf');
     } else if (pathname === '/experiences/0') {
       setBgColor('lp');
-    } else if (pathname === '/projects/3') {
+    } else if (pathname === '/projects/4') {
       setBgColor('pag');
-    } else if (pathname === '/projects/2') {
+    } else if (pathname === '/projects/3') {
       setBgColor('n');
-    } else if (pathname === '/projects/1') {
+    } else if (pathname === '/projects/2') {
       setBgColor('se');
-    } else if (pathname === '/projects/0') {
+    } else if (pathname === '/projects/1') {
       setBgColor('wa');
-    } else {
+    } else if (pathname === '/projects/0') {
+      setBgColor('budget');
+    }else {
       setBgColor('normal');
     }
   }, [pathname]);
